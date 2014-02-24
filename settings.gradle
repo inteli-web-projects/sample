@@ -1,0 +1,1 @@
+include 'sample-domain', 'sample-service', 'sample-common', 'sample-api', 'sample-web'
