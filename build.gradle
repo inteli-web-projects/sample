@@ -1,6 +1,6 @@
 subprojects {
 	
-	apply plugin: 'java'	
+    apply plugin: 'java'	
     apply plugin: 'groovy'
 
     version = '1.0.0-SNAPSHOT'
@@ -26,8 +26,8 @@ subprojects {
 project(':sample-service') {
     
     dependencies {
-		compile project(':sample-common')
-		compile project(':sample-api')
+	compile project(':sample-common')
+	compile project(':sample-api')
         compile project(':sample-domain')
     }
 }
